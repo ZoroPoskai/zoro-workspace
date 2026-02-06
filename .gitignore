@@ -1,0 +1,13 @@
+# Secrets — never commit
+scripts/.env
+scripts/.console-webhook-url
+scripts/.console-stream.pid
+scripts/.console-stream.log
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+*.swp
+*.swo
