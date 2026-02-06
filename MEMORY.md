@@ -34,15 +34,25 @@
   - Heartbeat needs logic.
   - Self-improvement loop needs design.
 
+## Infrastructure
+- **GitHub:** ZoroPoskai — https://github.com/ZoroPoskai/zoro-workspace
+- **SSH key:** Added to GitHub, working for push/pull
+- **Google account:** john123a3@gmail.com (Gmail access)
+- **Discord channels:** #general, #status-log, #brain-dump, #backlog, #news-feed, #console
+
 ## Active Projects
 - **The Watcher:** `scripts/watcher.js` running every 10m. Monitors health.
 - **Memory Bank:** Structured entities in `bank/`.
 - **The Council:** Sub-agent personas established.
+- **GitHub repo:** Workspace pushed to origin/main.
 
 ## Todo
-- [ ] Implement Heartbeat logic (proactive checking).
-- [ ] Create "Research Manager" standard task.
-- [ ] Create "Code Manager" standard task.
+- [ ] Build continuous research loop (periodic auto-research via Zoro3)
+- [ ] Implement self-reflection cron (daily review, distill learnings)
+- [ ] Wire MCP servers (Context7, GitHub) into OpenClaw config
+- [ ] Set up Brave API key for web search
+- [ ] Fix memory search (vector embeddings)
+- [ ] Build execution logging to #console channel
 
 
 ## Lessons Learned
